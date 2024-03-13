@@ -1,0 +1,23 @@
+:root{
+    --fundo: #f5bfe3;
+}
+body{ 
+    background-color: var(--fundo);
+}
+
+img{
+    width: 10%;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*NOSSO SITE */
+
+#duol{
+    width: 30%;
+}
