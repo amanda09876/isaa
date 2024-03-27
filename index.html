@@ -1,46 +1,48 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site de Maquiagem</title>
+    <title>Duol - Sua loja de maquiagem</title>
     <style>
+        /* Estilos CSS podem ser adicionados aqui */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
         }
-
         header {
+            background-color: #f8f8f8;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .logo {
+            font-size: 36px;
+            font-weight: bold;
+            color: #ff0066;
+        }
+        nav {
             background-color: #333;
             color: #fff;
-            padding: 20px;
             text-align: center;
+            padding: 10px 0;
         }
-
-        nav {
-            background-color: #444;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-        }
-
         nav a {
             color: #fff;
             text-decoration: none;
             margin: 0 10px;
         }
-
-        section {
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
             padding: 20px;
         }
-
         footer {
             background-color: #333;
             color: #fff;
             text-align: center;
-            padding: 10px;
+            padding: 10px 0;
             position: fixed;
             bottom: 0;
             width: 100%;
@@ -49,36 +51,22 @@
 </head>
 <body>
     <header>
-        <h1> DUOL - Maquiadora</h1>
+        <div class="logo">D</div>
+        <h1>Duol - Sua loja de maquiagem</h1>
     </header>
     <nav>
-        <a href="#sobre">Sobre</a>
-        <a href="#servicos">Serviços</a>
-        <a href="#portfolio">Portfólio</a>
-        <a href="#contato">Contato</a>
+        <a href="#">Início</a>
+        <a href="#">Produtos</a>
+        <a href="#">Sobre nós</a>
+        <a href="#">Contato</a>
     </nav>
-    <section id="sobre">
-        <h2>Sobre</h2>
-        <p>Texto sobre você e sua experiência como maquiadora.</p>
-    </section>
-    <section id="servicos">
-        <h2>Serviços</h2>
-        <ul>
-            <li>Maquiagem para casamentos</li>
-            <li>Maquiagem para eventos</li>
-            <li>Maquiagem artística</li>
-        </ul>
-    </section>
-    <section id="portfolio">
-        <h2>Portfólio</h2>
-        <p>Aqui você pode adicionar imagens de seus trabalhos de maquiagem.</p>
-    </section>
-    <section id="contato">
-        <h2>Contato</h2>
-        <p>Seus detalhes de contato, como e-mail e telefone.</p>
-    </section>
+    <div class="content">
+        <!-- Conteúdo do site pode ser adicionado aqui -->
+        <h2>Bem-vindo ao Duol</h2>
+        <p>Encontre os melhores produtos de maquiagem aqui!</p>
+    </div>
     <footer>
-        &copy; 2024 Seu Nome - Todos os direitos reservados
+        &copy; 2024 Duol - Todos os direitos reservados.
     </footer>
 </body>
 </html>
