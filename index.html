@@ -1,48 +1,55 @@
+
+isabele souza <isabelesouza10app@gmail.com>
+11:18 (há 0 minuto)
+para mim
+
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Duol - Sua loja de maquiagem</title>
+    <title>DUOL - Sua loja de maquiagem</title>
     <style>
-        /* Estilos CSS podem ser adicionados aqui */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
         }
+
         header {
-            background-color: #f8f8f8;
-            padding: 20px 0;
-            text-align: center;
-        }
-        .logo {
-            font-size: 36px;
-            font-weight: bold;
-            color: #ff0066;
-        }
-        nav {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-        }
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        .content {
+            background-color: #ff99cc; /* Rosa */
+            color: #ffffff; /* Branco */
             padding: 20px;
-        }
-        footer {
-            background-color: #333;
-            color: #fff;
             text-align: center;
-            padding: 10px 0;
+        }
+
+        #logo {
+            font-size: 48px;
+            font-weight: bold;
+            color: #ff3399; /* Rosa escuro */
+        }
+
+        nav {
+            background-color: #ff66b3; /* Rosa claro */
+            padding: 10px;
+            text-align: center;
+        }
+
+        #search, #cart {
+            float: right;
+            margin: 10px;
+        }
+
+        #content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #ff99cc; /* Rosa */
+            color: #ffffff; /* Branco */
+            padding: 20px;
+            text-align: center;
             position: fixed;
             bottom: 0;
             width: 100%;
@@ -51,22 +58,26 @@
 </head>
 <body>
     <header>
-        <div class="logo">D</div>
-        <h1>Duol - Sua loja de maquiagem</h1>
+        <h1 id="logo">D</h1>
+        <h2>DUOL - Sua loja de maquiagem</h2>
+        <p>Bem-vindo ao DUOL, sua loja de maquiagem favorita!</p>
     </header>
+
     <nav>
-        <a href="#">Início</a>
-        <a href="#">Produtos</a>
-        <a href="#">Sobre nós</a>
-        <a href="#">Contato</a>
+        <form id="search" action="#" method="get">
+            <input type="text" placeholder="Buscar produtos...">
+            <button type="submit">Buscar</button>
+        </form>
+        <a id="cart" href="#">Carrinho</a>
     </nav>
-    <div class="content">
-        <!-- Conteúdo do site pode ser adicionado aqui -->
-        <h2>Bem-vindo ao Duol</h2>
-        <p>Encontre os melhores produtos de maquiagem aqui!</p>
+
+    <div id="content">
+        <h3>Conheça nosso app!</h3>
+        <p>Baixe nosso aplicativo para ter acesso a ofertas exclusivas, dicas de beleza e muito mais!</p>
     </div>
+
     <footer>
-        &copy; 2024 Duol - Todos os direitos reservados.
+        <p>Isabele de Souza | Amanda de Carvalho | Ana Julia Stresser Wosch</p>
     </footer>
 </body>
 </html>
