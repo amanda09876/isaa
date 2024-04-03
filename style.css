@@ -42,4 +42,7 @@ img {
 
      .equipe{ 
          display: grid;
-         grid-templte-columns: 
+         grid-template-columns: 50% 50% 50%
+         text-align: center;
+    }
+
