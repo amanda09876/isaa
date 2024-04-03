@@ -16,6 +16,15 @@ header{
 #duol{
     width: 30%;
 }
+
+{
+    text-align: center;
+}
+user agent stylesheet
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
  
 .conteiner{text-align: center;}
 body {
