@@ -5,11 +5,6 @@ body{
     background-color: var(--fundo);
 }
 
-<img scr=".\batom.webp"
-    width: 10%;
-}
-
-
 header{
     display: flex;
     align-items: center;
@@ -21,3 +16,5 @@ header{
 #duol{
     width: 30%;
 }
+ 
+.conteiner{text-align: center;
