@@ -1,19 +1,23 @@
 :root{
-    --fundo: #f5bfe3;
-}
-body{ 
-    background-color: var(--fundo);
+    --cor-de-fundo: 
+    --
 }
 
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+body { 
+    background-color: var(--cor-de-fundo);
+
+    font-family:  "Edu NSW ACT fundation", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500; 
+    font-style: normal; 
 }
+    
+img { 
+     width: 10%
+    }
 
-/*NOSSO SITE */
-
-#duol{
-    width: 30;
-}
-
+    header { 
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
