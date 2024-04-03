@@ -17,14 +17,6 @@ header{
     width: 30%;
 }
 
-{
-    text-align: center;
-}
-user agent stylesheet
-div {
-    display: block;
-    unicode-bidi: isolate;
-}
  
 .conteiner{text-align: center;}
 body {
@@ -61,7 +53,7 @@ body {
 <div class="container">
 <div class="image-container">
     <img src="imagem1.jpg" alt="Maquiagem 1">
-    <p>Nome da Maquiagem 1</p>
+    <p>amanda de carvalho 1</p>
 </div>
 <div class="image-container">
     <img src="imagem2.jpg" alt="Maquiagem 2">
