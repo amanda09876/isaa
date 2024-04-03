@@ -35,4 +35,7 @@ img {
      }
     .introducao{     display: flex;
      margin: 20px 0 0 0;
-     
+     padding: 20px;
+     background-color: deeppink;
+     border-radius: 19px;
+     border: 3px solid rebeccapurple
