@@ -25,3 +25,14 @@ img {
     .maquiagem { 
               width: 20%;
     }          
+
+    .introducao { 
+        display: flex;
+    }
+
+    .cr { 
+        display: flex;
+     }
+    .introducao{     display: flex;
+     margin: 20px 0 0 0;
+     
