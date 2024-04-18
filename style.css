@@ -3,15 +3,15 @@ body {
     font-family: Arial, sans-serif;
 }
  
-cabecalho {
-    background-color: #ff149146; /* rosa claro */
-    color: rgb(240, 248, 255);
+header {
+    background-color: #ff149146;
+    color: aliceblue;
     padding: 20%;
     text-align: center
 }
 
 nav ul {
-    list-style: none;
+    list-style-type:  none;
 }
 
 nav ul li a {
@@ -30,10 +30,11 @@ section {
 
 #banner {
     background-color: beige;
-    text-align: end;
+    text-align: center;
 }
 
-#services {background-color: indianred;
+#services {
+    background-color: indianred;
 text-align: center;
 }
 
