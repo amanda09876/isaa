@@ -9,3 +9,47 @@
         margin: 0  auto;
     }
 
+    body {
+
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        background-color: #ff0066a1;
+        padding: 20px 0;
+        text-align: center;
+    }
+    .logo {
+        font-size: 36px;
+        font-weight: bold;
+        color: #fff;
+    }
+    nav {
+        background-color: #ff006609;
+        color: #ff006600;
+        text-align: center;
+        padding: 10px 0;
+    }
+    nav a {
+        color: #110309cb;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+    nav a:hover {
+        text-decoration: underline;
+    }
+    .content {
+        padding: 20px;
+    }
+    footer {
+        background-color: #080202dc;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+</style>
+</head>
