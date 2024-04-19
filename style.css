@@ -51,5 +51,9 @@
         bottom: 0;
         width: 100%;
     }
-</style>
-</head>
+.foto{  
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
