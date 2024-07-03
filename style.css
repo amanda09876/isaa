@@ -12,13 +12,6 @@ header {
     text-align: center;
 }
 
-header {
-    background-color: aliceblue;
-    color: rgb(58, 123, 180);
-    padding: 5px 0;
-    text-align: center;
-}
-
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -31,7 +24,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: rgb(180, 12, 12);
     text-decoration: none;
 }
 
@@ -41,7 +34,7 @@ section {
 
 footer {
     background-color: #333;
-    color: white;
+    color: rgb(8, 3, 3);
     text-align: center;
     padding: 10px 0;
 }
