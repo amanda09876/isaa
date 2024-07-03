@@ -12,6 +12,13 @@ header {
     text-align: center;
 }
 
+header {
+    background-color: aliceblue;
+    color: rgb(58, 123, 180);
+    padding: 5px 0;
+    text-align: center;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
