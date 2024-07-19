@@ -1,5 +1,4 @@
 body {
-
     font-family:'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
@@ -18,11 +17,11 @@ main {
 }
 
 footer {
-    background: #333;
+    background: #7D7D7D;
     color: #fff;
     text-align: center;
-    padding: 1rem 0;
+    padding: 50%;
     position: fixed;
     bottom: 0;
-    width: 50%;
+    width: 100%;
 }
