@@ -10,6 +10,7 @@ header {
     color: hsl(0, 0%, 100%);
     padding: 0,9%;
     text-align: center;
+    width: 100%;
 }
 
 main {
